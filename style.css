@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family: "Anton SC", sans-serif;
+    text-align: center;
+    background: linear-gradient(#E6FBFF,#7BCDE6);
+    
+}
+
+#header{
+    background-image: url(images/rikaz-basyouni-LY2RIC12q1w-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text{
+    text-shadow: 0 0 1px black;
+    color: azure;
+}
+
+#header h1{
+    font-size: 100px;
+    margin: 0;
+    transition: ease-in;
+}
+#header p{
+    font-size: 20px;
+    
+   
+}
+
+.jeddah-img:hover{
+    width: 600px;
+}
+
+.key-higlights:hover{
+    width: 600px;
+    border: 1px solid rgb(6, 93, 128);
+}
+
+.jeddah-img{
+    width: 400px;
+    border-radius: 100px;
+    margin: 10px;
+}
+
+#second-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+.paragraph{
+    font-size: 20px;
+    width: 300px;
+    font-family: "Caveat Brush", cursive;
+    
+}
+
+
+.key-higlights{
+    width: 250px;
+    height: 350px;
+    border-radius: 100px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+    
+}
+
+#key-highlight{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+
+dt{
+    color: rgb(29, 80, 89);
+}
+
+#guide{
+    border-bottom: 3px solid #E6FBFF;
+    border-top: 3px solid #E6FBFF;
+    width: 500px;
+    height: 400px;
+    display: block;
+    margin: 60px auto;
+}
+
+#tariq-avatar{
+    width: 200px;
+    border-radius: 100px;
+    border: 5px solid #E6FBFF;
+}
+
+#guide-info
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
